@@ -63,35 +63,67 @@
     </li>
 </ul>
 
-
+<a href="#" id="scroll" class="hide-on-small-only" style="display: none;"><span></span></a>
 <main>
-    <a href="#" id="scroll" class="hide-on-small-only" style="display: none;"><span></span></a>
     <section id="main-landing" class="landing center">
         <div class="landing-section">
             <div class="menu-wrap hide-on-large-only">
                 <a href="#" data-target="slide-out" class="sidenav-trigger left">
                     <!-- <img class="menu-icon" src="images/icons/menu-white.svg" alt="Menu Icon"> -->
-                    <i class="menu-icon material-icons medium" alt="Menu Icon">dehaze</i>
+                    <i class="menu-icon material-icons white-text medium" alt="Menu Icon">dehaze</i>
                 </a>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col s9">
-                        <div class="card-panel">
-                                        
-                                <h2>MycoSpray</h2>   
-                            
+            <div class="container landing-container">
+                <div class="row landing-boxes">
+                    <div class="col s12 m12 l6">
+                        <div class="card transparent shadowless">
+                            <h4 class="landing-text-header white-text">Sanitization & Disinfection Services</h4>
+                            <p class="flow-text white-text">Keep your staff, customers and family safe from viruses while maintaining day-to-day operations. MicroSpray Services will perform a viral disinfection and decontamination of your factory, office, warehouse, restaurant, store, school, or other public space.</p>
                         </div>
+ 
                     </div>
-                    <div class="col s3">
-                        <div class="card-panel">
-                                        
-                                <h2>MycoSpray</h2>   
-                            
+                    <div class="col s12 m12 l6">
+                        <div class="card large form-section transparent shadowless">
+                            <h4 class="white-text"><span class="page_header">Contact Us</span></h4>
+                            <div class=" center">
+                                <form id="contact_form" name="contact-form" method="POST" autocomplete="off" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
+                                    <div class="input-field col s9 honeypot">
+                                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                                    </div>
+                                    <div class="input-field col s10 offset-s1">
+                                        <i class="material-icons white-text prefix hide-on-small-only">account_circle</i>
+                                        <label for="name">Name</label>
+                                        <input type="text" name="name" class="validate"> 
+                                    </div>
+                                    <div class="input-field col s10 offset-s1">
+                                        <i class="material-icons white-text prefix hide-on-small-only">phone</i>
+                                        <label for="number">Number</label>
+                                        <input type="tel" name="number" class="validate"> 
+                                    </div>
+        
+                                    <div class="input-field col s10 offset-s1">
+                                        <i class="material-icons white-text prefix hide-on-small-only">mail</i>
+                                        <label for="email">Email</label>
+                                        <input type="text" name="email" class="validate">         
+                                    </div>
+        
+                                    <div class="input-field col s10 offset-s1">
+                                        <i class="material-icons white-text prefix hide-on-small-only">mode_edit</i>
+                                        <label for="message">How Can We Help?</label>
+                                        <textarea id="textarea" name="message" class="materialize-textarea" ></textarea>
+                                    </div>
+                                    <div data-netlify-recaptcha="true"></div>
+                                    <div class="input-field col s9 offset-s1 form-submit">
+                                        <button id="formBtn" class="btn btn-submit " type="submit" value="Submit">Submit
+                                            <i class="material-icons right">send</i>
+                                        </button>
+                                    </div>                    
+                                </form>
+                            </div> 
                         </div>
-                    </div>
+                    </div>                                      
                 </div>
-             </div>
+            </div>
         </div>
     </section>
 
