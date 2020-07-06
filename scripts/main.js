@@ -1,16 +1,4 @@
-// function browserCheck() {
-//     var isSafari = navigator.userAgent.toLowerCase().includes('safari');
-//     var isChrome = navigator.userAgent.toLowerCase().includes('chrome');
-//     if (isSafari && !isChrome) {
-//         var imgArr = Array.from(document.querySelectorAll('.project-row-screens img'));
-//         imgArr.forEach(item => {
-//             var imgName = item.src;
-//             var extReplace = imgName.replace(".webp", ".jpg");
-//             item.src = extReplace;
-//         });
-//         $('#headshotImg').css({"background-image": "url('/images/headshot.jpg')"});
-//      }
-// }
+
 $(document).ready(function(){
     $('.sidenav').sidenav({
         inDuration: 600,
@@ -40,14 +28,24 @@ $(document).ready(function(){
         return false; 
     }); 
     
-    // $('.method-card').hover(
-    //     function(){
-    //         $(this).addClass("card-panel transparent")
-    //     }, function() {
-    //         $( this ).removeClass( "card-panel" );
-    //     }
-    // );
-	
+    // if ($(window).width() < 700){
+    //     $('#covid').removeClass( "horizontal");
+    // } else {
+    //     $('#covid').addClass( "horizontal");
+    // }
+    
 });
 
+// function maskImgLocation() {
+//     var covidImg = document.querySelector('#covid');
+//     console.log(covidImg);
+//     var ww = window.innerWidth;
+//     if (ww < 700){
+//         covidImg.className( 'card covid-message');
+//     }
+//     // } else {
+//     //     covidImg.classList('card horizontal covid-message');
+//     // }
+//     maskImgLocation();
+// }
 

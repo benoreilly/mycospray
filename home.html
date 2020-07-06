@@ -64,8 +64,9 @@
 </ul>
 
 <a href="#" id="scroll" class="hide-on-small-only" style="display: none;"><span></span></a>
+
 <main>
-    <section id="main-landing" class="landing center scrollspy">
+    <section id="main-landing" class="center scrollspy">
         <div class="landing-section">
             <div class="menu-wrap hide-on-large-only">
                 <a href="#" data-target="slide-out" class="sidenav-trigger left">
@@ -73,47 +74,40 @@
                     <i class="menu-icon material-icons white-text medium" alt="Menu Icon">dehaze</i>
                 </a>
             </div>
-            <div class="container landing-container">
-                <div class="row landing-boxes">
+            <div class="landing-container">
+                <div class="row">
                     <div class="col s12 m12 l6">
-                        <div class="card transparent shadowless">
-                            <h4 class="landing-text-header white-text">Sanitization & Disinfection Services</h4>
+                        <div class="card landing-box transparent shadowless">
+                            <h5 class="landing-text-header white-text">Sanitization & Disinfection Services</h5>
                             <p class="flow-text white-text">Keep your staff, customers and family safe from viruses while maintaining day-to-day operations. MicroSpray Services will perform a viral and bacterial disinfection and decontamination of your factory, office, warehouse, restaurant, store, school, or other public space.</p>
-                            <div class="card-panel">
-                                <span class="card-title">COVID-19</span>
-                                <div class="card-content">
-
-                                </div>
-                            </div>
                         </div>
- 
                     </div>
                     <div class="col s12 m12 l6">
-                        <div class="card large form-section transparent shadowless">
-                            <h4 class="white-text"><span class="page_header">Contact Us</span></h4>
+                        <div class="card landing-box form-section transparent shadowless">
+                            <h4 class="white-text center"><span class="page_header">Contact Us</span></h4>
                             <div class=" center">
                                 <form id="contact_form" name="contact-form" method="POST" autocomplete="off" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
-                                    <div class="input-field col s9 honeypot">
+                                    <div class="input-field col s12 honeypot">
                                         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                                     </div>
-                                    <div class="input-field col s10 offset-s1">
+                                    <div class="input-field col s12 m11 offset-m1">
                                         <i class="material-icons white-text prefix hide-on-small-only">account_circle</i>
                                         <label for="name">Name</label>
                                         <input type="text" name="name" class="validate"> 
                                     </div>
-                                    <div class="input-field col s10 offset-s1">
+                                    <div class="input-field col s12 m11 offset-m1">
                                         <i class="material-icons white-text prefix hide-on-small-only">phone</i>
                                         <label for="number">Number</label>
                                         <input type="tel" name="number" class="validate"> 
                                     </div>
         
-                                    <div class="input-field col s10 offset-s1">
+                                    <div class="input-field col s12 m11 offset-m1">
                                         <i class="material-icons white-text prefix hide-on-small-only">mail</i>
                                         <label for="email">Email</label>
                                         <input type="text" name="email" class="validate">         
                                     </div>
         
-                                    <div class="input-field col s10 offset-s1">
+                                    <div class="input-field col s12 m11 offset-m1">
                                         <i class="material-icons white-text prefix hide-on-small-only">mode_edit</i>
                                         <label for="message">How Can We Help?</label>
                                         <textarea id="textarea" name="message" class="materialize-textarea" ></textarea>
@@ -130,7 +124,36 @@
                     </div>                                      
                 </div>
             </div>
+            <div class="covid-holder">
+                <div class="row">
+                    <div class="col s12 m12 l1">
+                        <div class="card transparent shadowless"></div>
+                    </div>
+                    <div class="col s12 m12 l10"> 
+                        <div id="covid" class="card horizontal covid-message">
+                            <div class="card-image">
+                                <img src="images/illustrations/covid-mask.svg">
+                            </div>
+                            <div class="card-stacked">
+                                <h4 class="center red-text">COVID-19</h4>
+                                <div class="card-content">
+                                    <p class="red-text">
+                                        If you are concerned about COVID-19 or other viruses and pathogens, let us perform a proper cleaning and disinfection. MycoSpray follows a two-step process in line with CDC best practices for proper decontamination.
+                                    </p> 
+                                    <!-- <p>
+                                        Regular sanitization and disinfection using the proper products and methods can ensure that your customers, staff, visitors and family are safe from potential pathogens.
+                                    </p> -->
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col s12 m12 l1">
+                        <div class="card transparent shadowless"></div>
+                    </div>
+                </div>
+            </div>
         </div>
+        
     </section>
 
 <!---------->
@@ -138,12 +161,13 @@
     <section class="section neb-divider">
         <div class="divider"></div>
     </section>
+    
 
 <!---------->
 
     <section id="services" class="section scrollspy">
         <h2 class="center section-header">Services</h2>
-        <div class="work-container">
+        <div class="container">
             <div class="card-panel work-screen transparent shadowless">
                 <div class="row">
                     <div class="col s12">
