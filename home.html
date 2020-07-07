@@ -25,240 +25,237 @@
 
 <body>
  
-
-<!-- <div class="navbar-fixed hide-on-med-and-down"> -->
-    <nav class="hide-on-med-and-down">
-        <div class="container">
-            <div class="nav-wrapper myco-nav-wrapper"> 
-                <a href="#!" id="logo" class="myco-logo brand-logo"><img src="images/myco-logo-long.png" height="60px" width="185px"></a>
-                <ul class="nav-links right hide-on-med-and-down">
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#method">Method</a></li>
-                    <li><a href="#main-landing">Contact</a></li>
-                </ul>  
-            </div>
+    <header>
+        <div class="myco-nav">
+            <nav class="">
+                <div class="container">
+                    <div class="nav-wrapper myco-nav-wrapper"> 
+                        <a href="#!" id="logo" class="myco-logo brand-logo"><img src="images/myco-logo-long.png" height="60px" width="185px"></a>
+                        <ul class="nav-links right hide-on-med-and-down">
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#method">Method</a></li>
+                            <!-- <li><a href="#main-landing">Contact</a></li> -->
+                        </ul>  
+                    </div>
+                </div>
+            </nav>
         </div>
-    </nav>
-<!-- </div>  -->
+    </header>
+    <main>
 
-   
-<ul class="sidenav sNav" id="slide-out"> 
-    <li class="closeBtn">
-        <div class="spin">
-            <a class="sNav sidenav-close" href="#!">
-                <img class="close-icon" src="images/icons/close.svg" alt="Close Side Navigation Button">
+        <ul class="sidenav sNav" id="slide-out"> 
+            <li class="closeBtn">
+                <div class="spin">
+                    <a class="sNav sidenav-close" href="#!">
+                        <img class="close-icon" src="images/icons/close.svg" alt="Close Side Navigation Button">
+                    </a>
+                </div>
+            </li>
+            <li class="sidenav-links">
+                <div class="sidelink">
+                    <a class="sidenav-close" href="#services">Services</a>
+                </div>
+                <div class="sidelink">
+                    <a class="sidenav-close" href="#method">Method</a>
+                </div>
+                <div class="sidelink">
+                    <!-- <a class="sidenav-close" href="#main-landing">Contact</a> -->
+                </div>
+            </li>
+        </ul>
+        <div class="menu-wrap hide-on-large-only">
+            <a href="#" data-target="slide-out" class="sidenav-trigger left">
+                <i class="menu-icon material-icons white-text medium" alt="Menu Icon">dehaze</i>
             </a>
         </div>
-    </li>
-    <li class="sidenav-links">
-        <div class="sidelink">
-            <a class="sidenav-close" href="#services">Services</a>
-        </div>
-        <div class="sidelink">
-            <a class="sidenav-close" href="#method">Method</a>
-        </div>
-        <div class="sidelink">
-            <a class="sidenav-close" href="#main-landing">Contact</a>
-        </div>
-    </li>
-</ul>
+        
+        <a href="#" id="scroll" class="hide-on-small-only" style="display: none;"><span></span></a>
 
-<a href="#" id="scroll" class="hide-on-small-only" style="display: none;"><span></span></a>
+        <section id="main-landing" class="center scrollspy">
+            <div class="landing-section container">
 
-<main>
-    <section id="main-landing" class="center scrollspy">
-        <div class="landing-section">
-            <div class="menu-wrap hide-on-large-only">
-                <a href="#" data-target="slide-out" class="sidenav-trigger left">
-                    <i class="menu-icon material-icons white-text medium" alt="Menu Icon">dehaze</i>
-                </a>
-            </div>
-            <div class="landing-container">
-                <div class="row">
-                    <div class="col s12 m12 l6">
-                        <div class="card landing-box transparent shadowless">
-                            <h5 class="landing-text-header white-text">Sanitization & Disinfection Services</h5>
-                            <p class="flow-text white-text">Keep your staff, customers and family safe from viruses while maintaining day-to-day operations. MicroSpray Services will perform a viral and bacterial disinfection and decontamination of your factory, office, warehouse, restaurant, store, school, or other public space.</p>
+                <div class="landing-container">
+                    <div class="row">
+                        <div class="col s12 m12 l6">
+                            <div class="card-panel landing-box transparent shadowless">
+                                <h1 class="landing-text-header white-text">MycoSpray Sanitization & Disinfection Services</h1>
+                                <div class="card-content">
+                                    <p class="flow-text white-text">Keep your staff, customers and family safe from viruses while maintaining your normal routine.</p>
+                                </div>
+                                
+                            </div>
                         </div>
-                    </div>
-                    <div class="col s12 m12 l6">
-                        <div class="card landing-box form-section transparent shadowless">
-                            <h4 class="white-text center"><span class="page_header">Contact Us</span></h4>
-                            <div class=" center">
+                        <div class="col s12 m12 l6">
+                            <div class="landing-box form-section">
+                                <h4 class="white-text center"><span class="page_header">Contact Us</span></h4>
                                 <form id="contact_form" name="contact-form" method="POST" autocomplete="off" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
                                     <div class="input-field col s12 honeypot">
                                         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                                     </div>
-                                    <div class="input-field col s12 m11 offset-m1">
+                                    <div class="input-field col s12">
                                         <i class="material-icons white-text prefix hide-on-small-only">account_circle</i>
                                         <label for="name">Name</label>
                                         <input type="text" name="name" class="validate"> 
                                     </div>
-                                    <div class="input-field col s12 m11 offset-m1">
+                                    <div class="input-field col s12">
                                         <i class="material-icons white-text prefix hide-on-small-only">phone</i>
                                         <label for="number">Number</label>
                                         <input type="tel" name="number" class="validate"> 
                                     </div>
         
-                                    <div class="input-field col s12 m11 offset-m1">
+                                    <div class="input-field col s12">
                                         <i class="material-icons white-text prefix hide-on-small-only">mail</i>
                                         <label for="email">Email</label>
                                         <input type="text" name="email" class="validate">         
                                     </div>
         
-                                    <div class="input-field col s12 m11 offset-m1">
+                                    <div class="input-field col s12">
                                         <i class="material-icons white-text prefix hide-on-small-only">mode_edit</i>
                                         <label for="message">How Can We Help?</label>
                                         <textarea id="textarea" name="message" class="materialize-textarea" ></textarea>
                                     </div>
-                                    <div data-netlify-recaptcha="true"></div>
+                                    <!-- <div data-netlify-recaptcha="true"></div> -->
                                     <div class="input-field col s12  form-submit">
-                                        <button id="formBtn" class="btn btn-submit right" type="submit" value="Submit">Submit
+                                        <button id="form-btn" class="btn btn-submit right" type="submit" value="Submit">Submit
                                             <i class="material-icons right">send</i>
                                         </button>
                                     </div>                    
                                 </form>
-                            </div> 
+                            </div>
+                        </div>                                      
+                    </div>
+                </div>
+                <div class="covid-holder container">
+                    <div class="row">
+                        <div class="col s12 m12 l9 push-l1"> 
+                            <div id="covid" class="card horizontal covid-message red lighten-2">
+                                <div class="card-image">
+                                    <img src="images/illustrations/covid-mask.svg">
+                                </div>
+                                <div class="card-stacked">
+                                    <h4 class="center white-text"><img class="alert-icon" src="images/icons/alert-triangle-red.svg" width="32px" height="32px" alt="Covid Alert">COVID-19</h4>
+                                    <div class="card-content">
+                                        <p class="white-text">
+                                            Let us to ease your COVID-19 worries. MycoSpray follows a two-step process in line with CDC best practices for proper decontamination.
+                                        </p> 
+                                        <!-- <p>
+                                            Regular sanitization and disinfection using the proper products and methods can ensure that your customers, staff, visitors and family are safe from potential pathogens.
+                                        </p> -->
+                                    </div>
+                                </div>
+                            </div>    
                         </div>
-                    </div>                                      
+                    </div>
                 </div>
             </div>
-            <div class="covid-holder">
-                <div class="row">
-                    <div class="col s12 m12 l1">
-                        <div class="card transparent shadowless"></div>
-                    </div>
-                    <div class="col s12 m12 l10"> 
-                        <div id="covid" class="card horizontal covid-message">
-                            <div class="card-image">
-                                <img src="images/illustrations/covid-mask.svg">
+            
+        </section>
+
+    <!---------->
+
+    <!-- <section class="section neb-divider">
+        <div class="divider"></div>
+    </section> -->
+        
+
+    <!---------->
+
+        <section id="services" class="section scrollspy">
+            <h3 class="center section-header">Services</h3>
+            <div class="container">
+                <div class="card-panel work-screen transparent shadowless">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card transparent shadowless center">
+                                <!-- <h4><span class="page_header">Text</span></h4> -->
                             </div>
-                            <div class="card-stacked">
-                                <h4 class="center red-text">COVID-19</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m6 l6">
+                            <div class="card service-card">
+                                <div class="card-image waves-effect waves-block">
+                                <img class="activator" src="images/icons/home.svg">
+                                </div>
                                 <div class="card-content">
-                                    <p class="red-text">
-                                        If you are concerned about COVID-19 or other viruses and pathogens, let us perform a proper cleaning and disinfection. MycoSpray follows a two-step process in line with CDC best practices for proper decontamination.
-                                    </p> 
-                                    <!-- <p>
-                                        Regular sanitization and disinfection using the proper products and methods can ensure that your customers, staff, visitors and family are safe from potential pathogens.
-                                    </p> -->
+                                <span class="card-title activator center grey-text text-darken-4">Residential<i class="material-icons right">more_vert</i></span>
+                                
+                                </div>
+                                <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Residential<i class="material-icons right">close</i></span>
+                                <p>MicroSpray Services will perform a viral and bacterial disinfection and decontamination of your factory, office, warehouse, restaurant, store, school, or other public space.</p>
                                 </div>
                             </div>
-                        </div>    
-                    </div>
-                    <div class="col s12 m12 l1">
-                        <div class="card transparent shadowless"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </section>
-
-<!---------->
-
-    <section class="section neb-divider">
-        <div class="divider"></div>
-    </section>
-    
-
-<!---------->
-
-    <section id="services" class="section scrollspy">
-        <h2 class="center section-header">Services</h2>
-        <div class="container">
-            <div class="card-panel work-screen transparent shadowless">
-                <div class="row">
-                    <div class="col s12">
-                        <div class="card transparent shadowless center">
-                            <!-- <h4><span class="page_header">Text</span></h4> -->
                         </div>
-                    </div>
+        
+                        <div class="col s12 m6 l6">
+                            <div class="card service-card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images\icons/buildings.svg">
+                                </div>
+                                <div class="card-content">
+                                <span class="card-title activator center grey-text text-darken-4">Commercial<i class="material-icons right">more_vert</i></span>
+                                
+                                </div>
+                                <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Commercial<i class="material-icons right">close</i></span>
+                                <p>MicroSpray Services will perform a viral and bacterial disinfection and decontamination of your factory, office, warehouse, restaurant, store, school, or other public space..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>     
                 </div>
+            </div>
+        </section>
+    <!---------->
+        <section class="section neb-divider">
+            <div class="divider"></div>
+        </section>
+    <!---------->
+        <section id="method" class="section center scrollspy">
+            <div class="container">
+                <h2 class="section-header center">Our Method</h2>
+                <p class="flow-text">MyCoSpray uses a highly efficient Electrostatic Spray System to deliver sanitizers & disinfecting solutions to every surface for complete microscopic coverage of every unseen nook and cranny.</p>
                 <div class="row">
-                    <div class="col s12 m12 l6">
-                        <div class="card service-card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="images\illustrations\sanitizer.png">
-                            </div>
-                            <div class="card-content">
-                              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                              <p><a href="#">This is a link</a></p>
-                            </div>
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                              <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                            </div>
-                          </div>
+                    <div class="col s12 m4 method-card">
+                    <div class="method-inner center">
+                        <i class="material-icons large">flash_on</i>
+                        <h4>Speeds up development</h4>
+                        <p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
                     </div>
-     
-                    <div class="col s12 m12 l6">
-                        <div class="card service-card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="images\illustrations\mask-man.svg">
-                            </div>
-                            <div class="card-content">
-                              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                              <p><a href="#">This is a link</a></p>
-                            </div>
-                            <div class="card-reveal">
-                              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                              <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                            </div>
-                          </div>
                     </div>
-                </div>     
-            </div>
-        </div>
-    </section>
-<!---------->
-    <section class="section neb-divider">
-        <div class="divider"></div>
-    </section>
-<!---------->
-    <section id="method" class="section center scrollspy">
-        <div class="container">
-            <h2 class="section-header center">Our Method</h2>
-            <div class="row">
-                <div class="col s12 m4 method-card">
-                  <div class="method-inner center">
-                    <i class="material-icons large">flash_on</i>
-                    <h4>Speeds up development</h4>
-                    <p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-                  </div>
-                </div>
 
-                <div class="col s12 m4 method-card">
-                  <div class="method-inner center">
-                    <i class="material-icons large">group</i>
-                    <h4 class="promo-caption">User Experience Focused</h4>
-                    <p class="light center">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-                  </div>
-                </div>
+                    <div class="col s12 m4 method-card">
+                    <div class="method-inner center">
+                        <i class="material-icons large">group</i>
+                        <h4 class="promo-caption">User Experience Focused</h4>
+                        <p class="light center">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                    </div>
+                    </div>
 
-                <div class="col s12 m4 method-card">
-                  <div class="method-inner center">
-                    <i class="material-icons large">settings</i>
-                    <h4 class="promo-caption">Easy to work with</h4>
-                    <p class="light center">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-                  </div>
+                    <div class="col s12 m4 method-card">
+                    <div class="method-inner center">
+                        <i class="material-icons large">settings</i>
+                        <h4 class="promo-caption">Easy to work with</h4>
+                        <p class="light center">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                    </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-<!---------->
-    <section class="section neb-divider">
-        <div class="divider"></div>
-    </section>
-<!---------->
+        </section>
+    <!---------->
+        <section class="section neb-divider">
+            <div class="divider"></div>
+        </section>
+    <!---------->
 
-</main>
+    </main>
 
-<footer class="center">
-    <div class="myco-footer flow-text">
-        <span class="footer-text">MycoSpray &copy; 2020</span>    
-    </div>   
-</footer>
+    <footer class="center">
+        <div class="myco-footer flow-text">
+            <span class="footer-text">MycoSpray &copy; 2020</span>    
+        </div>   
+    </footer>
 
 
 
@@ -269,3 +266,4 @@
 
 </body>
 </html>
+
