@@ -5,13 +5,7 @@ $(document).ready(function(){
         outDuration: 600,
         edge: 'left',
     });
-    $('.materialboxed').materialbox();
     $('.scrollspy').scrollSpy();
-    $('.pushpin').pushpin({
-        top: 0,
-        offset: 250,
-	});
-	
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 100) { 
             $('#scroll').fadeIn(); 

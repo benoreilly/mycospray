@@ -13,13 +13,12 @@
     <link rel="preconnect" href="https://www.fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://www.fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" as="script">
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" as="style">
     <link rel="preconnect" href="css/style.css" as="style">
     <link rel="preconnect" href="scripts/main.js" as="script">
     <link rel="stylesheet"
         href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Raleway:400,400italic,500,500italic|Raleway+Condensed:400,700|Raleway+Mono:400,500|Material+Icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-        as="style">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="apple-touch-icon" href="images/myco-logo.png" width="30px" height="30px">
     <link rel="shortcut icon" type="image/x-icon" href="images/myco-logo.png" width="30px" height="30px">
     <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -37,7 +36,6 @@
                     <ul class="nav-links right hide-on-med-and-down">
                         <li><a href="#services">Services</a></li>
                         <li><a href="#method">Method</a></li>
-                        <!-- <li><a href="#main-landing">Contact</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -46,7 +44,7 @@
     </header>
     <main>
 
-        <ul class="sidenav sNav" id="slide-out">
+        <ul class="sidenav" id="slide-out">
             <li class="closeBtn">
                 <div class="spin">
                     <a class="sNav sidenav-close" href="#!">
@@ -60,9 +58,6 @@
                 </div>
                 <div class="sidelink">
                     <a class="sidenav-close" href="#method">Method</a>
-                </div>
-                <div class="sidelink">
-                    <!-- <a class="sidenav-close" href="#main-landing">Contact</a> -->
                 </div>
             </li>
         </ul>
@@ -119,8 +114,8 @@
                                         <label for="message">How Can We Help?</label>
                                         <textarea id="textarea" name="message" class="materialize-textarea"></textarea>
                                     </div>
-                                    <div class="input-field col s6" data-netlify-recaptcha="true"></div>
-                                    <div class="input-field col s6  form-submit">
+                                    <div class="input-field col s12 m6" data-netlify-recaptcha="true"></div>
+                                    <div class="input-field col s12 m6  form-submit">
                                         <button id="form-btn" class="btn btn-submit right" type="submit"
                                             value="Submit">Submit
                                             <i class="material-icons right">send</i>
@@ -148,9 +143,6 @@
                                             that are approved by the EPA for effective elimination of viruses and as an
                                             effective treatment method against COVID-19 and bacterial infections.
                                         </p>
-                                        <!-- <p>
-                                            Regular sanitization and disinfection using the proper products and methods can ensure that your customers, staff, visitors and family are safe from potential pathogens.
-                                        </p> -->
                                     </div>
                                 </div>
                             </div>
@@ -158,26 +150,20 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
-        <!---------->
-
-
-
-
-        <!---------->
 
         <section id="services-section" class="section ">
             <div class="container services-header-container">
-                <h2 id="services" class="scrollspy center section-header site-color-blue-text">Sanitization Services
-                </h2>
-                <p class="center">We provide complete solution coverage on top, underneath,
+                <h2 id="services" class="scrollspy center section-header site-color-blue-text">Sanitization Services</h2>
+                <p class="center">
+                    We provide complete solution coverage on top, underneath,
                     behind all exposed surfaces including: all door handles, door
                     casings, light switches, desks, tables, chairs, walls, floors,
                     ceilings, shelves, cabinet handles &amp; doors, office equipment,
                     printers, touch screens, fixtures, furniture, common areas,
-                    home &amp; office communal bathroom and kitchen surfaces.</p>
+                    home &amp; office communal bathroom and kitchen surfaces.
+                </p>
             </div>
 
             <div class="container">
@@ -212,7 +198,7 @@
         </section>
         <!---------->
         <section id="method" class="section center scrollspy">
-            <div class="container">
+            <div class="container method-container">
                 <h2 class="section-header center site-color-blue-text">Our Method</h2>
                 <p class="flow-text">MycoSpray uses a highly effective <strong>electrostatic spray system</strong> to
                     deliver sanitizers & disinfecting solutions to every surface for complete microscopic coverage of
@@ -238,24 +224,10 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="section"></div>
-            </div>
-            <div class="container">
-                <div class="section"></div>
-            </div>
-            <div class="container">
-                <div class="section"></div>
-            </div>
         </section>
-        <!---------->
-        <!-- <section class="section neb-divider">
-            <div class="divider"></div>
-        </section> -->
-        <!---------->
-
+        
         <section id="consultation-section">
-            <div class="container center">
+            <div class="container consultation-container center">
                 <div class="consultation-card site-color-blue card-panel white-text">
                     <h2 class="center flow-text">Contact Us Today To Schedule Your Free Consultation</h2>
                     <a href="#main-landing" class="contact-form-btn waves-effect waves-light btn">Contact Form</a>
@@ -265,12 +237,6 @@
                 <div class="section"></div>
             </div>
         </section>
-
-        <!---------->
-        <section class="section neb-divider">
-            <div class="divider"></div>
-        </section>
-        <!---------->
 
     </main>
 
