@@ -35,6 +35,11 @@ section {
 	width: 100vw;
 }
 
+.site-color-blue {
+	/* background-image: linear-gradient(to top, rgb(74, 144, 226), rgb(29, 67, 113)); */
+	color: rgba(33, 73, 123, 0.951);
+}
+
 section.neb-divider .divider {
 	background-color: rgba(255, 164, 27, 0.920);
 	height: 2px;
@@ -235,17 +240,13 @@ nav .nav-wrapper ul.nav-links li a:hover {
 	width: 80%;
 }
 
-/* .method-card {
-	height: 450px;
-} */
-
-/* .method-card:hover {
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-	border-radius: 8px;
-} */
 
 .method-inner {
 	margin: 20px;
+}
+
+.method-inner p {
+	font-size: 1.2rem;
 }
 
 
@@ -260,26 +261,24 @@ nav .nav-wrapper ul.nav-links li a:hover {
 	padding-top: 60px;
 }
 
+.services-header-container p {
+	font-size: 1.3rem;
+}
+
 .service-card .card-image img {
 	max-height: 250px;
+	cursor: auto;
 }
 
-.work-container {
-	width: 90%;
-	margin: auto;
-}
-
-.work-container .card-panel {
-	padding: 10px;
+.card-action.myco-card-action {
+	background-color: rgba(25, 64, 112, 0.951);
 }
 
 .card #show-card.card-reveal {
 	background-color: rgba(0, 0, 0, 0.85);
 }
 
-.activator:hover {
-	cursor: pointer;
-}
+
 
 
 
@@ -304,6 +303,13 @@ nav .nav-wrapper ul.nav-links li a:hover {
 	color: #fff;
 	position: relative;
 	z-index: 900;
+}
+
+@media only screen and (max-width:600px){
+	.verify-and-submit {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 /* Back to Top Button */
