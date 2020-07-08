@@ -28,24 +28,6 @@ $(document).ready(function(){
         return false; 
     }); 
     
-    // if ($(window).width() < 700){
-    //     $('#covid').removeClass( "horizontal");
-    // } else {
-    //     $('#covid').addClass( "horizontal");
-    // }
     
 });
-
-// function maskImgLocation() {
-//     var covidImg = document.querySelector('#covid');
-//     console.log(covidImg);
-//     var ww = window.innerWidth;
-//     if (ww < 700){
-//         covidImg.className( 'card covid-message');
-//     }
-//     // } else {
-//     //     covidImg.classList('card horizontal covid-message');
-//     // }
-//     maskImgLocation();
-// }
 

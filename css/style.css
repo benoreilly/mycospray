@@ -2,7 +2,8 @@
 	box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
 	overflow-x: hidden !important;
 	overflow-y: visible;
 }
@@ -52,9 +53,6 @@ section.neb-divider .divider {
 	height: 2px;
 }
 
-span.page_header {
-	border-bottom: 2px solid #009688;
-}
 
 .shadowless {
 	box-shadow: none;
@@ -211,6 +209,7 @@ nav .nav-wrapper ul.nav-links li a:hover {
 	height: 140px;
 	margin: auto;
 }
+
 @media only screen and (max-width:1000px) {
 	.covid-message .card-image img {
 		height: 100px;
@@ -243,6 +242,7 @@ nav .nav-wrapper ul.nav-links li a:hover {
 #method .container {
 	width: 80%;
 }
+
 .method-inner {
 	margin: 20px;
 }
@@ -257,7 +257,7 @@ nav .nav-wrapper ul.nav-links li a:hover {
 	margin-top: 60px;
 }
 
-#services .section-header {
+#services-section .section-header {
 	padding-top: 60px;
 }
 
@@ -277,7 +277,7 @@ nav .nav-wrapper ul.nav-links li a:hover {
 
 /*--#contact--*/
 
-.form-section.card-panel{
+.form-section.card-panel {
 	border-radius: 8px;
 	height: 600px;
 }
@@ -292,13 +292,13 @@ nav .nav-wrapper ul.nav-links li a:hover {
 }
 
 #contact_form .input-field .prefix~label {
-	
+
 	font-weight: 500;
 }
 
 #contact_form input,
 #contact_form textarea {
-	
+
 	position: relative;
 	z-index: 900;
 }
