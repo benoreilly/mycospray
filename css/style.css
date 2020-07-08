@@ -235,7 +235,9 @@ nav .nav-wrapper ul.nav-links li a:hover {
 
 /* ----------------#Method-------------------- */
 
-
+#method {
+	height: 100vh;
+}
 #method .container {
 	width: 80%;
 }
