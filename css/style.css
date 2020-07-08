@@ -250,7 +250,7 @@ nav .nav-wrapper ul.nav-links li a:hover {
 	margin-top: 60px;
 }
 
-#services-section .section-header {
+.services-header-container .section-header {
 	padding-top: 60px;
 }
 
@@ -258,20 +258,24 @@ nav .nav-wrapper ul.nav-links li a:hover {
 	font-size: 1.3rem;
 }
 
+.service-card {
+	border-radius: 12px;
+}
 .service-card .card-image img {
 	max-height: 250px;
 	cursor: auto;
 }
 
-.card-action.myco-card-action {
+.card-action.myco-card-action:last-child {
 	background-color: rgba(25, 64, 112, 0.951);
+	border-radius: 0 0 12px 12px;
 }
 
 
 /*--#contact--*/
 
 .form-section.card-panel {
-	border-radius: 8px;
+	border-radius: 12px;
 	height: 610px;
 }
 
@@ -294,7 +298,7 @@ nav .nav-wrapper ul.nav-links li a:hover {
 	z-index: 900;
 }
 
-/* Consultation-section */
+
 .consultation-container {
 	margin-top: 60px;
 }
