@@ -159,6 +159,10 @@ summary {
 body {
   line-height: 1; }
 
+main {
+  margin-top: 40px }
+
+
 blockquote,
 q {
   quotes: '' ''; }

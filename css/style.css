@@ -295,6 +295,15 @@ nav .nav-wrapper ul.nav-links li a:hover {
 	z-index: 900;
 }
 
+@media screen and (max-width: 600px) {
+	#contact_form .input-field .prefix ~ label,
+	#contact_form .input-field .prefix ~ input,
+	#contact_form .input-field .prefix ~ textarea {
+	  margin-left: 0;
+	  width: calc(100% - 1rem);
+	}
+  }
+
 
 .consultation-container {
 	margin-top: 60px;
