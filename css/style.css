@@ -115,14 +115,14 @@ nav .nav-wrapper ul.nav-links li a:hover {
 
 .sidenav {
 	background-color: rgba(14, 14, 14, 0.900);
-	width: 80vw;
+	/* width: 80vw; */
 }
 
 .sidenav-links {
 	display: flex;
 	flex-direction: column;
 	margin-top: 10%;
-	align-items: center;
+	/* align-items: center; */
 }
 
 .sidenav-links a {
