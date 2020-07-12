@@ -273,11 +273,10 @@ nav .nav-wrapper ul.nav-links li a:hover {
 
 .form-section.card-panel {
 	border-radius: 12px;
-	height: 610px;
+	height: 600px;
 }
 
-#contact_form h4,
-.form-submit {
+#contact_form h4 {
 	padding: 10px;
 }
 
