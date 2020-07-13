@@ -32,11 +32,11 @@ section.neb-divider {
 }
 
 .site-color-blue {
-	background-color: rgba(33, 73, 123, 0.951);
+	background-color: rgba(33, 73, 123, 0.95);
 }
 
 .site-color-blue-text {
-	color: rgba(33, 73, 123, 0.951);
+	color: rgba(33, 73, 123, 0.95);
 }
 
 .site-color-cream {
@@ -44,7 +44,7 @@ section.neb-divider {
 }
 
 section.neb-divider .divider {
-	background-color: rgba(255, 164, 27, 0.920);
+	background-color: rgba(255, 164, 27, 0.9);
 	height: 2px;
 }
 
@@ -70,6 +70,15 @@ footer {
 	vertical-align: bottom;
 }
 
+.btn-submit:hover,
+a.demo-btn:hover {
+	background-color: rgba(33, 73, 123, 0.85);
+}
+
+.contact-form-btn:hover {
+	background-color: rgba(247, 251, 225, .8)
+}
+
 /* -------- Navigation ------- */
 .navbar-fixed {
 	position: absolute;
@@ -78,11 +87,11 @@ footer {
 nav {
 	position: absolute;
 	top: 8px;
-	right: 15%;
+	right: 10%;
 	background-color: rgba(247, 251, 225, 1.0);
 	height: 56px;
 	line-height: 56px;
-	width: 70%;
+	width: 80%;
 	border-radius: 8px;
 }
 
@@ -93,9 +102,23 @@ nav {
 	}
 }
 
+/* @media only screen and (max-width: 992px) {
+	.nav-wrapper.myco-nav-wrapper {
+		display: flex;
+			
+	}
+} */
+
 .nav-wrapper.myco-nav-wrapper {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+}
+
+.myco-nav-wrapper img {
+		font-family: Lato, Roboto;
+		font-size: 4rem;
+		font-weight: bold;
+		fill: #21497B;
 }
 
 nav .myco-logo.brand-logo {
@@ -114,15 +137,15 @@ nav .nav-wrapper ul.nav-links li a:hover {
 }
 
 .sidenav {
-	background-color: rgba(14, 14, 14, 0.900);
-	/* width: 80vw; */
+	background-color: rgba(14, 14, 14, 0.95);
+	width: 80vw;
 }
 
 .sidenav-links {
 	display: flex;
 	flex-direction: column;
 	margin-top: 10%;
-	/* align-items: center; */
+	align-items: center;
 }
 
 .sidenav-links a {
@@ -138,7 +161,7 @@ nav .nav-wrapper ul.nav-links li a:hover {
 	margin: 15px;
 }
 
-.sidenav-close {
+.sidenav-close-icon {
 	position: relative;
 	top: 40px;
 	left: 40px;
@@ -204,6 +227,21 @@ nav .nav-wrapper ul.nav-links li a:hover {
 	margin: auto;
 }
 
+.epa-link {
+	font-size: 1.2rem;
+	margin-top: 12px;
+}
+
+.epa-link:hover {
+	text-decoration: underline;
+	text-decoration-color: rgba(33, 73, 123, 0.95);
+}
+
+.epa-link i {
+	font-size: 1.2rem;
+	vertical-align: middle;
+}
+
 @media only screen and (max-width:1000px) {
 	.covid-message .card-image img {
 		height: 100px;
@@ -242,6 +280,7 @@ nav .nav-wrapper ul.nav-links li a:hover {
 .method-inner p {
 	font-size: 1.2rem;
 }
+
 
 /*--------------#Services----------------------*/
 
@@ -286,7 +325,13 @@ nav .nav-wrapper ul.nav-links li a:hover {
 
 #contact_form .input-field .prefix~label {
 	font-weight: 500;
+	color: #21497B;
 }
+
+#contact_form .input-field .prefix.active {
+	color: #21497B;
+}
+
 
 #contact_form input,
 #contact_form textarea {

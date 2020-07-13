@@ -18,11 +18,10 @@
     <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" as="style">
     <link rel="preconnect" href="css/style.css" as="style">
     <link rel="preconnect" href="scripts/main.js" as="script">
-    <link rel="stylesheet"
-        href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Raleway:400,400italic,500,500italic|Raleway+Condensed:400,700|Raleway+Mono:400,500|Material+Icons">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic|Roboto+Condensed:400,700|Roboto+Mono:400,500|Material+Icons&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="apple-touch-icon" href="images/myco-icon.png" width="32px" height="32px">
-    <link rel="shortcut icon" type="image/x-icon" href="images/myco-icon.png" width="32px" height="32px">
+    <link rel="apple-touch-icon" href="images/logos/myco-target-icon-v2.png" width="32px" height="32px">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logos/myco-target-icon-v2.png" width="32px" height="32px">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
 </head>
@@ -30,36 +29,47 @@
 <body>
 
     <header>
-
+<div class="container">
         <nav>
-            <div class="container">
-                <div class="nav-wrapper myco-nav-wrapper">
-                    <img class="myco-logo brand-logo" src="images/myco-logo-long.png" height="60px">
-                    <ul class="nav-links right hide-on-med-and-down">
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#method">Method</a></li>
-                    </ul>
-                </div>
+            <div class="nav-wrapper myco-nav-wrapper">
+                <img class="myco-logo brand-logo hide-on-med-and-down" src="images/logos/myco-target_logo.svg" width="260px" height="70px">
+                <ul class="nav-links right hide-on-med-and-down">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#method">Method</a></li>
+                    <li><a href="/demo">Demo</a></li>
+                </ul>
             </div>
         </nav>
-
+    </div>
     </header>
     <main>
 
         <ul class="sidenav" id="slide-out">
             <li class="closeBtn">
                 <div class="spin">
-                    <a class="sNav sidenav-close" href="#!">
+                    <a class="sNav sidenav-close sidenav-close-icon" href="#!">
                         <img class="close-icon" src="images/icons/close.svg" alt="Close Side Navigation Button">
                     </a>
                 </div>
             </li>
+            <!-- <li class="site-logo">
+                <div class="center">
+                    <img src="images/logos/myco-target_logo.svg" alt="Site Logo" width="200px">          
+                </div>
+            </li> -->
             <li class="sidenav-links">
+                <div class="center">
+                    <img src="images/logos/myco-target_logo.svg" alt="Site Logo" width="250px">          
+                </div>
+                <div class="divider"></div>
                 <div class="sidelink">
                     <a class="sidenav-close" href="#services">Services</a>
                 </div>
                 <div class="sidelink">
                     <a class="sidenav-close" href="#method">Method</a>
+                </div>
+                <div class="sidelink">
+                    <a class="sidenav-close" a href="/demo">Demo</a>
                 </div>
             </li>
         </ul>
@@ -80,8 +90,7 @@
                                 <h1 class="landing-text-header white-text">MycoSpray</h1>
                                 <h3 class='white-text'>Sanitization & Disinfection Services</h3>
                                 <div class="card-content">
-                                    <p class="flow-text white-text">Keep your staff, customers and family safe from
-                                        viruses and bacteria while maintaining your normal routine.</p>
+                                    <p class="flow-text white-text">Let our licensed professionals keep your staff, customers, and family safe from viruses and bacteria while maintaining your normal routine.</p>
                                 </div>
 
                             </div>
@@ -118,7 +127,7 @@
                                     </div>
                                     <!-- <div class="input-field col s11 m6" data-netlify-recaptcha="true"></div> -->
                                     <div class="input-field col s12">
-                                        <button id="form-btn" class="btn right btn-submit" type="submit"
+                                        <button id="form-btn" class="btn site-color-blue right btn-submit" type="submit"
                                             value="Submit">Submit
                                             <i class="material-icons right">send</i>
                                         </button>
@@ -145,6 +154,8 @@
                                             that are approved by the EPA for effective elimination of viruses and as an
                                             effective treatment method against COVID-19 and bacterial infections.
                                         </p>
+                                        <div class="divider"></div>
+                                        <div class="epa-link center"><a class="site-color-blue-text" href="https://www.epa.gov/pesticide-registration/list-n-disinfectants-use-against-sars-cov-2-covid-19#filter_col1" rel="noopener" target="_blank">See The Full List Of EPA Approved Disinfectants For Use Against COVID-19 <i class="material-icons">launch</i></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -205,7 +216,7 @@
                     deliver sanitizers & disinfecting solutions to every surface for complete microscopic coverage of
                     every unseen nook and cranny.
                 </p>
-                <a href="/demo" class="waves-effect waves-light btn btn-large">View Demo</a>
+                <a href="/demo" class="demo-btn site-color-blue btn-large">View Demo</a>
                 <div class="row">
                     <div class="col s12 m12 l6 method-card">
                         <div class="method-inner center">
@@ -233,7 +244,7 @@
             <div class="container consultation-container center">
                 <div class="consultation-card site-color-blue card-panel white-text">
                     <h2 class="center flow-text">Contact Us Today To Schedule Your Free Consultation</h2>
-                    <a href="#main-landing" class="contact-form-btn waves-effect waves-light btn">Contact Form</a>
+                    <a href="#main-landing" class="contact-form-btn site-color-cream black-text btn">Contact Form</a>
                 </div>
             </div>
             <div class="container">
