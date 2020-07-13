@@ -102,23 +102,9 @@ nav {
 	}
 }
 
-/* @media only screen and (max-width: 992px) {
-	.nav-wrapper.myco-nav-wrapper {
-		display: flex;
-			
-	}
-} */
-
 .nav-wrapper.myco-nav-wrapper {
 	display: flex;
 	justify-content: space-around;
-}
-
-.myco-nav-wrapper img {
-		font-family: Lato, Roboto;
-		font-size: 4rem;
-		font-weight: bold;
-		fill: #21497B;
 }
 
 nav .myco-logo.brand-logo {
@@ -357,6 +343,18 @@ nav .nav-wrapper ul.nav-links li a:hover {
 	border-radius: 40px;
 }
 
+.consultation-card h2 {
+	margin-top: 10px;
+}
+
+.contact-number:hover {
+	text-decoration: underline;
+}
+
+.contact-number img {
+	vertical-align: middle;
+	padding-right: 8px;
+}
 
 
 #scroll {
