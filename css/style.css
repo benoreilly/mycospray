@@ -76,13 +76,10 @@ a.demo-btn:hover {
 }
 
 .contact-form-btn:hover {
-	background-color: rgba(247, 251, 225, .8)
+	background-color: rgba(247, 251, 225, 1);
 }
 
 /* -------- Navigation ------- */
-.navbar-fixed {
-	position: absolute;
-}
 
 nav {
 	position: absolute;
