@@ -264,6 +264,58 @@ nav .nav-wrapper ul.nav-links li a:hover {
 	font-size: 1.2rem;
 }
 
+.spray-card {
+	display: flex;
+	justify-content: space-evenly;
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+@media only screen and (max-width: 700px) {
+	.spray-card {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.spray-card figure img {
+		max-width: 50%;
+	}
+}
+
+.service-card .service-trigger,
+.spray-card .spray-trigger {
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+	width: 35px;
+	height: 35px;
+	margin: 4px;
+	cursor: pointer;
+}
+
+.service-card .service-trigger:hover,
+.spray-card .spray-trigger:hover {
+	border: 1px solid rgba(255, 164, 27, 0.9);
+	background-color: rgba(33, 73, 123, .7);
+}
+
+.service-card .service-trigger i,
+.spray-card .spray-trigger i {
+	font-size: 1.4rem;
+	line-height: 35px;
+}
+
+.spray-card .card-reveal {
+	background-color: rgba(33, 73, 123, .9);
+}
+
+.spray-card .card-reveal p {
+	font-size: 1.2rem;
+}
+
 
 /*--------------#Services----------------------*/
 
