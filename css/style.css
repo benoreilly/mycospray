@@ -109,7 +109,7 @@ nav {
 	z-index: 10;
 }
 
-nav .myco-nav-wrapper {
+nav .myco-nav__wrapper {
 	display: flex;
 	justify-content: space-between;
 }
@@ -130,14 +130,14 @@ nav .myco-icon img {
 	padding-right: 8px;
 }
 
-nav .nav-wrapper ul.nav-links li a {
+nav .nav__wrapper ul.nav-links li a {
 	color: rgba(0, 0, 0, 0.87);
 	font-size: 1.5rem;
 	font-weight: 500;
 	font-family: Google Sans;
 }
 
-nav .nav-wrapper ul.nav-links li a:hover {
+nav .nav__wrapper ul.nav-links li a:hover {
 	color: #4187be;
 }
 
@@ -199,7 +199,7 @@ nav .nav-wrapper ul.nav-links li a:hover {
 	width: 60px;
 }
 
-/* ---------Home landing--------- */
+/*=== Home landing ===*/
 
 #main-landing {
 	min-height: 85vh;
@@ -402,8 +402,6 @@ p.sub-header {
 	}
 }
 
-
-
 figcaption {
 	font-size: 1.4rem;
 }
@@ -421,7 +419,6 @@ figcaption {
 	margin: 4px;
 	cursor: pointer;
 }
-
 
 
 /*--------------#Services----------------------*/
