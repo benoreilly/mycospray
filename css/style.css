@@ -424,10 +424,6 @@ figcaption {
 /*--------------#Services----------------------*/
 
 
-.services-header-container p {
-	font-size: 1.3rem;
-}
-
 .service-card {
 	display: flex;
 	justify-content: center;
