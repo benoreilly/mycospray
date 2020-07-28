@@ -653,6 +653,7 @@ figcaption {
 
 #count {
 	font-size: 1.5rem;
+	font-weight: 500;
 }
 
 .success-card svg {
