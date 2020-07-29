@@ -57,18 +57,12 @@ section.myco-divider .divider {
 	background-color: #fff8e1;
 }
 
-
 .shadowless {
 	box-shadow: none;
 }
 
-h2.section-header {
-	margin-bottom: 60px;
-}
-
 .myco-footer {
 	margin: 20px;
-	font-family: Google Sans;
 }
 
 footer {
@@ -96,7 +90,7 @@ footer {
 	background-color: #ffe8c6;
 }
 
-/* -------- Navigation ------- */
+/*=== Navigation ===*/
 
 nav {
 	position: absolute;
@@ -199,7 +193,7 @@ nav .nav__wrapper ul.nav-links li a:hover {
 	width: 60px;
 }
 
-/*=== Home landing ===*/
+/*=== landing ===*/
 
 #main-landing {
 	min-height: 85vh;
@@ -287,7 +281,6 @@ p.sub-header {
 	text-transform: none;
 }
 
-
 .service-trigger:hover,
 .contact-link:hover {
 	background-color: #ffe8c6;
@@ -313,115 +306,7 @@ p.sub-header {
 }
 
 
-#covid {
-	background-color: rgba(229, 115, 115, 0.65);
-	border: 1px solid #e53935;
-	border-radius: 12px;
-}
-
-.covid-message .card-image {
-	margin: auto;
-}
-
-.covid-message .card-image img {
-	height: 140px;
-	margin: auto;
-}
-
-.epa-link {
-	font-size: 1.2rem;
-	margin-top: 12px;
-}
-
-.epa-link:hover {
-	text-decoration: underline;
-	text-decoration-color: rgba(33, 73, 123, 0.95);
-}
-
-.epa-link i {
-	font-size: 1.2rem;
-	vertical-align: middle;
-}
-
-@media only screen and (max-width:1000px) {
-	.covid-message .card-image img {
-		height: 100px;
-		margin: auto;
-	}
-}
-
-.covid-message p {
-	font-size: 1.3rem;
-}
-
-@media screen and (max-width: 1000px) {
-	.covid-holder {
-		position: relative;
-		top: 120px;
-	}
-}
-
-@media screen and (max-width: 800px) {
-	.card.horizontal.covid-message {
-		display: flex;
-		flex-direction: column;
-	}
-}
-
-/* ----------------#Method-------------------- */
-
-.method-container {
-	margin-bottom: 60px;
-}
-
-.method-inner {
-	margin: 20px;
-}
-
-.method-inner h3{
-	font-size: 2.5rem;
-}
-
-.spray-card {
-	border-radius: 8px;
-	border: 1px solid #214a7b;
-    background-color: transparent;
-}
-
-.spray-card-figs {
-	display: flex;
-	justify-content: space-evenly;
-}
-
-
-@media only screen and (max-width: 700px) {
-	.spray-card-figs {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-	}
-}
-
-figcaption {
-	font-size: 1.4rem;
-}
-
-.spray-fig-text {
-	font-size: 1.2rem;
-}
-
-.spray-card .spray-trigger {
-	position: absolute;
-	bottom: 4px;
-	right: 4px;
-	width: 40px;
-	height: 40px;
-	margin: 4px;
-	cursor: pointer;
-}
-
-
-/*--------------#Services----------------------*/
+/*=== Services ===*/
 
 
 .service-card {
@@ -445,8 +330,9 @@ figcaption {
 	background-color: rgba(33, 74, 123, 0.85);
 }
 
-.service-card .card-reveal p{
-	font-size: 1.2rem;;
+.service-card .card-reveal p {
+	font-size: 1.2rem;
+	;
 }
 
 .residential {
@@ -505,9 +391,118 @@ figcaption {
 			rgba(255, 242, 166, 0.5));
 }
 
+#covid {
+	background-color: rgba(229, 115, 115, 0.65);
+	border: 1px solid #e53935;
+	border-radius: 12px;
+}
+
+.covid-message .card-image {
+	margin: auto;
+}
+
+.covid-message .card-image img {
+	height: 140px;
+	margin: auto;
+}
+
+.epa-link {
+	font-size: 1.2rem;
+	margin-top: 12px;
+}
+
+.epa-link:hover {
+	text-decoration: underline;
+	text-decoration-color: rgba(33, 73, 123, 0.95);
+}
+
+.epa-link i {
+	font-size: 1.2rem;
+	vertical-align: middle;
+}
+
+@media only screen and (max-width:1000px) {
+	.covid-message .card-image img {
+		height: 100px;
+		margin: auto;
+	}
+}
+
+.covid-message p {
+	font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1000px) {
+	.covid-holder {
+		position: relative;
+		top: 120px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.card.horizontal.covid-message {
+		display: flex;
+		flex-direction: column;
+	}
+}
 
 
-/*--------------#Contact----------------------*/
+
+
+/*=== Method ===*/
+
+.method-container {
+	margin-bottom: 60px;
+}
+
+.method-inner {
+	margin: 20px;
+}
+
+.method-inner h3 {
+	font-size: 2.5rem;
+}
+
+.spray-card {
+	border-radius: 8px;
+	border: 1px solid #214a7b;
+	background-color: transparent;
+}
+
+.spray-card-figs {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width: 700px) {
+	.spray-card-figs {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+}
+
+figcaption {
+	font-size: 1.4rem;
+}
+
+.spray-fig-text {
+	font-size: 1.2rem;
+}
+
+.spray-card .spray-trigger {
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+	width: 40px;
+	height: 40px;
+	margin: 4px;
+	cursor: pointer;
+}
+
+
+/*=== Contact ===*/
 
 
 .form-section.card-panel {
@@ -540,13 +535,14 @@ figcaption {
 }
 
 @media screen and (max-width: 600px) {
-	#contact_form .input-field .prefix ~ label,
-	#contact_form .input-field .prefix ~ input,
-	#contact_form .input-field .prefix ~ textarea {
-	  margin-left: 0;
-	  width: calc(100% - 1rem);
+
+	#contact_form .input-field .prefix~label,
+	#contact_form .input-field .prefix~input,
+	#contact_form .input-field .prefix~textarea {
+		margin-left: 0;
+		width: calc(100% - 1rem);
 	}
-  }
+}
 
 
 .consultation-container {
