@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="apple-touch-icon" href="images/logos/myco-target-icon.png" width="32px" height="32px">
     <link rel="shortcut icon" type="image/x-icon" href="images/logos/myco-target-icon.png" width="32px" height="32px">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/myco.css" type="text/css">
 
 </head>
 
@@ -37,8 +37,8 @@
 
     <header>
         <nav class="transparent shadowless">
-            <div class="nav__wrapper myco-nav__wrapper">
-                <div class="myco-icon brand-logo">
+            <div class="nav__wrapper">
+                <div class="nav__logo brand-logo">
                     <img src="images/logos/myco-target_icon.svg " alt="MycoSpray Icon" height="60px" width="60px">
                     <span>MycoSpray</span>
                 </div>
@@ -49,26 +49,21 @@
             </div>
         </nav>
     </header>
-    <main>
 
+    <main>
         <ul class="sidenav" id="slide-out">
             <li class="closeBtn">
                 <div class="spin">
-                    <a class="sNav sidenav-close sidenav-close-icon" href="#!">
+                    <a class="sidenav-close sidenav-close-icon" href="#!">
                         <img class="close-icon" src="images/icons/close.svg" alt="Close Side Navigation Button">
                     </a>
                 </div>
             </li>
-            <!-- <li class="side-nav-logo center">
-                <img src="images/logos/myco-target_icon.svg " alt="MycoSpray Icon" height="60px">
-                <span class="side-nav__logo--text">MycoSpray</span>
-            </li>
-            <div class="divider"></div> -->
-            <li class="sidenav-links">
-                <div class="sidelink">
+            <li class="sidenav__links">
+                <div class="sidenav__links--sidelink">
                     <a class="sidenav-close" href="#services">Services</a>
                 </div>
-                <div class="sidelink">
+                <div class="sidenav__links--sidelink">
                     <a class="sidenav-close" href="#method">Method</a>
                 </div>
             </li>
@@ -81,19 +76,24 @@
 
         <a href="#" id="scroll"  class="hide-on-small-only" style="display: none;"><span class="btn-floating waves-effect myco-primary"><img src="images/icons/arrow_upward-white-.svg" alt="Scroll To Top Button"></span></a>
 
-        <section id="main-landing" class="center scrollspy">
-            <div class="landing-section container">
+        <section id="main-landing" class="myco-primary-alt center scrollspy">
+            <div class="landing-container container">
                 <div class="row">
                     <div class="col s12 m12 l6">
                         <div class="section card-panel landing-box transparent shadowless">
                             <div class="landing-content-container">
                                 <div class="landing-text">
-                                    <h1 class="white-text">Electrostatic Sanitization & Disinfection Services</h1>
-                                    <p class="sub-header white-text">Serving Metro Atlanta</p>
+                                    <h1 class="white-text">
+                                        Electrostatic Sanitization & Disinfection Services
+                                    </h1>
+                                    <p class="sub-header white-text">
+                                        Serving Metro Atlanta
+                                    </p>
                                 </div>
                                 <div class="landing-cta">
-                                    <p class="white-text">Keep your staff, customers, and family safe from viruses and bacteria.</p>
-                                    <!-- <a href="#services-info" class="btn myco-secondary myco-primary-text waves-effect">Tell Me More</a> -->
+                                    <p class="white-text">
+                                        Keep your staff, customers, and family safe from viruses and bacteria.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -152,8 +152,12 @@
 
         <section id="services" class="section scrollspy">
             <div class="container">
-                <div class="services-header-container">
-                    <h2 class="center section-header myco-primary-text">Sanitization Services</h2>
+                <div class="section-header">
+                    <header>
+                        <h1 class="center myco-primary-text">
+                            Sanitization Services
+                        </h1>
+                    </header>
                     <p class="flow-text center">
                         We provide complete solution coverage on top, underneath,
                         behind all exposed surfaces including: all door handles, door
@@ -219,16 +223,21 @@
         <!---------->
         <section id="method" class="section center scrollspy">
             <div class="container method-container">
-                <h2 class="center myco-primary-text">Our Method</h2>
-                <p class="flow-text">MycoSpray uses a highly effective <strong>electrostatic spray system</strong> to
-                    deliver sanitizers & disinfecting solutions to every surface for complete microscopic coverage of
-                    every unseen nook and cranny.
-                </p>
+                <div class="section-header">
+                    <header>
+                        <h1 class="center myco-primary-text">Our Method</h1>
+                    </header>
+                    <p class="flow-text center">
+                        MycoSpray uses a highly effective <strong>electrostatic spray system</strong> to
+                        deliver sanitizers & disinfecting solutions to every surface for complete microscopic coverage of
+                        every unseen nook and cranny.
+                    </p>
+                </div>
                 <div class="row">
                     <div class="col s12 m12 l6 method-card">
                         <div class="method-inner center">
                             <img src="images/icons/360.svg" alt="Full Coverage" height="80px">
-                            <h3 class="grey-text text-darken-3">Maximal Coverage</h3>
+                            <h2 class="grey-text text-darken-3">Maximal Coverage</h2>
                             <p class="flow-text center">
                                 Electrostatic sprayers expel charged droplets
                                 at a force 75 times stronger than the pull of Earth's gravity. This process ensures that the solution makes
@@ -239,7 +248,7 @@
                     <div class="col s12 m12 l6 method-card">
                         <div class="method-inner center">
                             <img src="images/icons/environmental.svg" alt="Eco-Friendly" height="80px">
-                            <h3 class="grey-text text-darken-3">Environmentally Sound</h3>
+                            <h2 class="grey-text text-darken-3">Environmentally Sound</h2>
                             <p class="flow-text center">
                                 Electrostatic sprayers reduce chemical waste, use low-toxicity
                                 chemicals, and lowers exposure to chemicals.
@@ -274,9 +283,11 @@
         
         <section id="consultation-section">
             <div class="container consultation-container center">
-                <div class="consultation-card card-panel myco-primary-alt white-text">
+                <div class="card-panel myco-primary-alt white-text">
                     <span class="center flow-text"><a class="contact-number white-text" href="tel:6787199865"><img src="images/icons/phone.svg" alt="Phone Icon" height="28px">678-719-9865</a></span>
-                    <h2 class="center flow-text">Contact Us Today To Schedule Your Free Consultation</h2>
+                    <p class="center flow-text">
+                        Contact Us Today To Schedule Your Free Consultation
+                    </p>
                     <a href="#contact_form" class="contact-link waves-effect myco-primary-text">Contact Form</a>
                 </div>
             </div>
