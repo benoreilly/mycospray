@@ -635,6 +635,13 @@ footer {
 	}
 }
 
+@media only screen and (max-width:992px) {
+	.landing-box {
+		top: 0;
+	}
+}
+
+
 @media only screen and (max-width: 600px) {
 	.landing-content-container h1 {
 		font-size: 2.8rem;
