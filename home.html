@@ -34,23 +34,28 @@
 </head>
 
 <body>
-
     <header>
-        <nav class="transparent shadowless">
-            <div class="nav__wrapper">
-                <div class="nav__logo brand-logo">
-                    <img src="images/logos/myco-target_icon.svg " alt="MycoSpray Icon" height="60px" width="60px">
-                    <span>MycoSpray</span>
+        <div class="navbar-fixed">
+            <nav class="myco-primary">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <div class="nav__logo">
+                            <img src="images/logos/myco-target_icon.svg " alt="MycoSpray Icon" height="60px" width="60px">
+                            <span>MycoSpray</span>
+                        </div>
+                        <ul id="nav-mobile" class="nav-links hide-on-med-and-down">
+                            <li><a href="#services" class="white-text">Services</a></li>
+                            <li><a href="#method" class="white-text">Method</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <ul class="nav-links right hide-on-med-and-down">
-                    <li><a href="#services" class="white-text">Services</a></li>
-                    <li><a href="#method" class="white-text">Method</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+                <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only">
+                    <img src="images/icons/dehaze.svg" alt="Menu Icon" height="30px"></img>
+                </a>
+            </nav>
+        </div>
 
-    <main>
+
         <ul class="sidenav" id="slide-out">
             <li class="closeBtn">
                 <div class="spin">
@@ -68,31 +73,30 @@
                 </div>
             </li>
         </ul>
-        <div class="menu-wrap hide-on-large-only">
-            <a href="#" data-target="slide-out" class="sidenav-trigger left">
-                <img src="images/icons/dehaze.svg" alt="Menu Icon"></img>
-            </a>
-        </div>
 
-        <a href="#" id="scroll"  class="hide-on-small-only" style="display: none;"><span class="btn-floating waves-effect myco-primary"><img src="images/icons/arrow_upward-white-.svg" alt="Scroll To Top Button"></span></a>
+    </header>
 
+     <a href="#" id="scroll"  class="hide-on-small-only" style="display: none;"><span class="btn-floating waves-effect myco-primary"><img src="images/icons/arrow_upward-white-.svg" alt="Scroll To Top Button"></span>
+    </a>
+    
+    <main>
         <section id="main-landing" class="myco-primary-alt center scrollspy">
-            <div class="landing-container container">
+            <div class="container">
                 <div class="row">
                     <div class="col s12 m12 l6">
                         <div class="section card-panel landing-box transparent shadowless">
                             <div class="landing-content-container">
+                                <div class="landing-cta">
+                                    <p class="white-text">
+                                        Keep your staff, customers, and family safe from viruses and bacteria.
+                                    </p>
+                                </div>
                                 <div class="landing-text">
                                     <h1 class="white-text">
                                         Electrostatic Sanitization & Disinfection Services
                                     </h1>
                                     <p class="sub-header white-text">
                                         Serving Metro Atlanta
-                                    </p>
-                                </div>
-                                <div class="landing-cta">
-                                    <p class="white-text">
-                                        Keep your staff, customers, and family safe from viruses and bacteria.
                                     </p>
                                 </div>
                             </div>
@@ -304,8 +308,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
-        integrity="sha256-U/cHDMTIHCeMcvehBv1xQ052bPSbJtbuiw4QA9cTKz0=" crossorigin="anonymous" async></script>
-    <script src="scripts/main.js" async></script>
+        integrity="sha256-U/cHDMTIHCeMcvehBv1xQ052bPSbJtbuiw4QA9cTKz0=" crossorigin="anonymous"></script>
+    <script src="scripts/main.js" defer></script>
 
 </body>
 
