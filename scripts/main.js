@@ -5,7 +5,7 @@ $(document).ready(function () {
     edge: "left",
   });
   $(".scrollspy").scrollSpy({
-    scrollOffset: 0,
+    scrollOffset: 20,
   });
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
