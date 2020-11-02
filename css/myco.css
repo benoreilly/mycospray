@@ -71,10 +71,6 @@ section.myco-divider .divider {
 
 /*=== Navigation ===*/
 
-.navbar-fixed {
-  height: inherit;
-}
-
 nav .nav-wrapper {
   display: flex;
   justify-content: space-between;
@@ -167,8 +163,6 @@ nav .nav-wrapper ul.nav-links li a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  top: 4vh;
-  margin-top: 10%;
 }
 
 .landing-content-container {
@@ -178,7 +172,7 @@ nav .nav-wrapper ul.nav-links li a:hover {
 }
 
 .landing-content-container h1 {
-  font-size: clamp(2.5rem, 3vw, 3rem);
+  font-size: clamp(2rem, 3vw, 3rem);
 }
 
 p.sub-header {
@@ -186,7 +180,7 @@ p.sub-header {
 }
 
 .landing-cta p {
-  font-size: clamp(2.5rem, 3vw, 3.2rem);
+  font-size: clamp(2.5rem, 3vw, 3.5rem);
 }
 
 /*=== Contact ===*/
@@ -626,20 +620,6 @@ footer {
     top: 0;
   }
 }
-
-/* @media only screen and (max-width: 600px) {
-  .landing-content-container h1 {
-    font-size: 2.8rem;
-    line-height: 90%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .landing-cta p {
-    font-size: 1.8rem;
-    line-height: 90%;
-  }
-} */
 
 @media only screen and (max-width: 1000px) {
   .covid-message .card-image img {
