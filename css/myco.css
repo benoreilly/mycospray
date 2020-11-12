@@ -146,10 +146,6 @@ nav .nav-wrapper ul.nav-links li a:hover {
 #main-landing {
   min-height: 85vh;
   width: 100vw;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
 }
 
 #main-landing .container {
