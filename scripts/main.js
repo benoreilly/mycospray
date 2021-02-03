@@ -9,7 +9,7 @@ $(document).ready(function () {
   });
   $(".slider").slider({
     indicators: false,
-    height: 680,
+    height: 650,
     transition: 500,
   });
   $(window).scroll(function () {

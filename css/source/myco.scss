@@ -509,6 +509,7 @@ footer {
 
 .biosyn {
   #biosyn-header {
+    position: relative;
     .slider {
       img {
         filter: blur(2px) opacity(0.4) grayscale(0.5);

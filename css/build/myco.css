@@ -520,6 +520,9 @@ footer {
   font-weight: 500;
 }
 
+.biosyn #biosyn-header {
+  position: relative;
+}
 .biosyn #biosyn-header .slider img {
   filter: blur(2px) opacity(0.4) grayscale(0.5);
 }
